@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size : 15px;
+    line-height: 25x;
+    height: 1400px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Dancing Script', cursive;
+
+}
+a, a:hover{
+    text-decoration: none;
+}
+.green{
+    width: 800px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    top: 0%;
+    left: 20%;
+    margin: 50px;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.fb{
+    width: 110px;
+    top:30%;
+    position: fixed;
+    right: -80px;
+    transition:1s;
+
+
+}
+.twitter{
+    width: 110px;
+    top: 35%;
+    right: -80px;
+    position: fixed;
+    transition: 1s;
+}
+.fb:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.twitter:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.pinterest{
+    width: 110px;
+    top: 40%;
+    right: -80px;
+    position: fixed;
+    transition: 1s;
+}   
+.pinterest:hover{
+    
+    right: -1px;
+    cursor: pointer;
+
+}
+.social{
+    width: 100%;
+    
+    background-color: gray;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.social-icons{
+    text-align: center;
+    width: 100%;
+}
+.social-icons li{
+list-style: none;
+display: inline-block;
+}
+.social-icons li a .fa{
+    display: block;
+    width : 80px;
+    height: 80px;
+    background-color:black;
+    line-height: 80px;
+    color: white;
+    font-size: 32px;
+    border-radius:100%;
+    margin : 0px 20px;
+    transition: 1s;
+}
+.social-icons li a .fa-facebook:hover{
+    background-color:#097EEB;
+}
+
+.social-icons li a .fa-twitter:hover{
+    background-color:#00A2F2;
+}
+.social-icons li a .fa-pinterest:hover{
+    background-color:#E10000;
+}
+.social-icons li a .fa-instagram:hover{
+    background-color:blueviolet;
+}
+
+
+
